@@ -1,0 +1,205 @@
+{
+  "chapter": 5,
+  "chapter_title": "Οξέα - Βάσεις και Ιοντική Ισορροπία",
+  "section": "5.5",
+  "section_title": "Ρυθμιστικά διαλύματα",
+  "metadata": {
+    "created_at": "2026-05-02",
+    "version": "1.0",
+    "exam_mode": true,
+    "time_limit_minutes": 25,
+    "shuffle_options": true,
+    "rendering": "LaTeX-ready",
+    "notes": "10 ερωτήσεις. Υπολογισμοί από 3ο και 6ο διαγώνισμα."
+  },
+  "questions": [
+    {
+      "id": "CH5_5_001",
+      "type": "single_choice",
+      "difficulty": "easy",
+      "points": 1,
+      "tags": ["ρυθμιστικό", "ορισμός", "pH"],
+      "learning_objective": "Κατανόηση ορισμού ρυθμιστικού διαλύματος",
+      "question": "Ρυθμιστικό διάλυμα είναι το διάλυμα που:",
+      "options": [
+        {"id": "A", "text": "Έχει πάντα $pH = 7$"},
+        {"id": "B", "text": "Αντιστέκεται σε μεγάλες μεταβολές $pH$ κατά την προσθήκη μικρών ποσοτήτων ισχυρού οξέος ή βάσης"},
+        {"id": "C", "text": "Περιέχει μόνο ισχυρά οξέα και βάσεις"},
+        {"id": "D", "text": "Δεν μεταβάλλει ποτέ το $pH$ του"}
+      ],
+      "correct_answer": {"type": "option", "value": "B"},
+      "explanation": "Ρυθμιστικό διάλυμα: διατηρεί το $pH$ σχεδόν σταθερό κατά την προσθήκη μικρών ποσοτήτων ισχυρού οξέος ή βάσης. ΔΕΝ σημαίνει $pH = 7$ — μπορεί να έχει οποιοδήποτε $pH$ ανάλογα με τα συστατικά του.",
+      "common_mistake": "Θεωρείται ότι ρυθμιστικό = ουδέτερο ($pH=7$).",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5"
+    },
+    {
+      "id": "CH5_5_002",
+      "type": "single_choice",
+      "difficulty": "easy",
+      "points": 1,
+      "tags": ["ρυθμιστικό", "σύσταση", "αναγνώριση"],
+      "learning_objective": "Αναγνώριση ρυθμιστικού διαλύματος από τα συστατικά του",
+      "question": "Ποιο από τα παρακάτω μείγματα αποτελεί ρυθμιστικό διάλυμα;",
+      "options": [
+        {"id": "A", "text": "$HCl$ + $NaCl$"},
+        {"id": "B", "text": "$NaOH$ + $NaCl$"},
+        {"id": "C", "text": "$CH_3COOH$ + $CH_3COONa$"},
+        {"id": "D", "text": "$HCl$ + $NaOH$ (ίσα mol)"}
+      ],
+      "correct_answer": {"type": "option", "value": "C"},
+      "explanation": "Ρυθμιστικό = ασθενές οξύ + συζυγής βάση (άλας). $CH_3COOH$ (ασθενές οξύ) + $CH_3COONa$ (άλας, παρέχει $CH_3COO^-$, συζυγής βάση) ✓. Α: $HCl$ ισχυρό οξύ + $NaCl$ άλας — δεν είναι ρυθμιστικό. Δ: ίσα mol HCl+NaOH → εξουδετέρωση → NaCl, ουδέτερο.",
+      "common_mistake": "Επιλέγεται Α — αλλά το $HCl$ είναι ισχυρό οξύ, δεν σχηματίζει ρυθμιστικό.",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5"
+    },
+    {
+      "id": "CH5_5_003",
+      "type": "single_choice",
+      "difficulty": "medium",
+      "points": 2,
+      "tags": ["ρυθμιστικό", "δράση", "προσθήκη-οξέος"],
+      "learning_objective": "Κατανόηση δράσης ρυθμιστικού κατά προσθήκη ισχυρού οξέος",
+      "question": "Σε ρυθμιστικό διάλυμα $CH_3COOH/CH_3COO^-$ προστίθεται μικρή ποσότητα $HCl$. Ποια αντίδραση απορροφά τα $H^+$;",
+      "options": [
+        {"id": "A", "text": "$CH_3COOH + H^+ \\rightarrow CH_3COO^- + 2H^+$"},
+        {"id": "B", "text": "$CH_3COO^- + H^+ \\rightarrow CH_3COOH$"},
+        {"id": "C", "text": "$H_2O + H^+ \\rightarrow H_3O^+$"},
+        {"id": "D", "text": "$CH_3COOH \\rightarrow CH_3COO^- + H^+$"}
+      ],
+      "correct_answer": {"type": "option", "value": "B"},
+      "explanation": "Τα $H^+$ από το $HCl$ αντιδρούν με τη συζυγή βάση $CH_3COO^-$: $CH_3COO^- + H^+ \\rightarrow CH_3COOH$. Έτσι τα $H^+$ απορροφώνται και το $pH$ μεταβάλλεται ελάχιστα. Αυτός είναι ο μηχανισμός προστασίας από οξύ.",
+      "common_mistake": "Θεωρείται ότι το $CH_3COOH$ (οξύ) είναι αυτό που αντιδρά με $H^+$ — αλλά η βάση ($CH_3COO^-$) είναι που δεσμεύει τα $H^+$.",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5"
+    },
+    {
+      "id": "CH5_5_004",
+      "type": "single_choice",
+      "difficulty": "medium",
+      "points": 2,
+      "tags": ["ρυθμιστικό", "δράση", "προσθήκη-βάσης"],
+      "learning_objective": "Κατανόηση δράσης ρυθμιστικού κατά προσθήκη ισχυρής βάσης",
+      "question": "Σε ρυθμιστικό διάλυμα $CH_3COOH/CH_3COO^-$ προστίθεται μικρή ποσότητα $NaOH$. Ποια αντίδραση απορροφά τα $OH^-$;",
+      "options": [
+        {"id": "A", "text": "$CH_3COO^- + OH^- \\rightarrow CH_3COOH + O^{2-}$"},
+        {"id": "B", "text": "$CH_3COO^- + OH^- \\rightarrow$ προϊόν"},
+        {"id": "C", "text": "$CH_3COOH + OH^- \\rightarrow CH_3COO^- + H_2O$"},
+        {"id": "D", "text": "$H_2O + OH^- \\rightarrow 2OH^-$"}
+      ],
+      "correct_answer": {"type": "option", "value": "C"},
+      "explanation": "Τα $OH^-$ από το $NaOH$ αντιδρούν με το ασθενές οξύ $CH_3COOH$: $CH_3COOH + OH^- \\rightarrow CH_3COO^- + H_2O$. Τα $OH^-$ εξουδετερώνονται και το $pH$ αυξάνεται ελάχιστα. Αυτός είναι ο μηχανισμός προστασίας από βάση.",
+      "common_mistake": "Επιλέγεται Β — αλλά το $CH_3COO^-$ (βάση) δεν αντιδρά με $OH^-$ (επίσης βάση). Αντιδρά το οξύ $CH_3COOH$.",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5"
+    },
+    {
+      "id": "CH5_5_005",
+      "type": "true_false",
+      "difficulty": "medium",
+      "points": 2,
+      "tags": ["ρυθμιστικό", "pH", "ίσες-C", "pKa"],
+      "learning_objective": "Γνώση ότι pH ρυθμιστικού = pKa όταν C_acid = C_salt",
+      "question": "Σε ρυθμιστικό διάλυμα $HA/A^-$ όταν $[HA] = [A^-]$, το $pH$ του διαλύματος ισούται με το $pK_a$ του οξέος $HA$.",
+      "correct_answer": {"type": "boolean", "value": true},
+      "explanation": "$[H^+] = K_a \\times \\frac{[HA]}{[A^-]}$. Αν $[HA] = [A^-]$: $[H^+] = K_a \\Rightarrow pH = pK_a$. Αυτή είναι η βάση του τύπου Henderson-Hasselbalch: $pH = pK_a + \\log\\frac{[A^-]}{[HA]}$. Για ίσες C: $\\log(1) = 0$ → $pH = pK_a$.",
+      "common_mistake": "Θεωρείται ότι $[HA]=[A^-]$ δίνει $pH=7$ — αλλά $pH=pK_a$ που εξαρτάται από το οξύ.",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5 — Θέμα Γ1 3ου διαγωνίσματος"
+    },
+    {
+      "id": "CH5_5_006",
+      "type": "single_choice",
+      "difficulty": "medium",
+      "points": 2,
+      "tags": ["ρυθμιστικό", "παρασκευή", "ανάμειξη"],
+      "learning_objective": "Κατανόηση παρασκευής ρυθμιστικού από ανάμειξη οξέος και βάσης",
+      "question": "Ανακατεύουμε $100$ mL $CH_3COOH$ $0{,}1$ M με $50$ mL $NaOH$ $0{,}1$ M. Τι προκύπτει;",
+      "options": [
+        {"id": "A", "text": "Διάλυμα $CH_3COONa$ μόνο — πλήρης εξουδετέρωση"},
+        {"id": "B", "text": "Ρυθμιστικό διάλυμα $CH_3COOH/CH_3COO^-$"},
+        {"id": "C", "text": "Διάλυμα $HCl$ — περίσσεια οξέος"},
+        {"id": "D", "text": "Ουδέτερο διάλυμα με $pH = 7$"}
+      ],
+      "correct_answer": {"type": "option", "value": "B"},
+      "explanation": "mol $CH_3COOH$ = $0{,}1 \\times 0{,}1 = 0{,}01$ mol. mol $NaOH$ = $0{,}05 \\times 0{,}1 = 0{,}005$ mol. Αντίδραση: $CH_3COOH + NaOH \\rightarrow CH_3COONa + H_2O$. Παράγεται $0{,}005$ mol $CH_3COONa$, απομένει $0{,}005$ mol $CH_3COOH$. Ίσα mol οξέος και άλατος → ρυθμιστικό με $pH = pK_a \\approx 4{,}74$.",
+      "common_mistake": "Θεωρείται πλήρης εξουδετέρωση — αλλά το $NaOH$ είναι μισό από το $CH_3COOH$.",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5 — Θέμα Γ1 3ου διαγωνίσματος"
+    },
+    {
+      "id": "CH5_5_007",
+      "type": "single_choice",
+      "difficulty": "hard",
+      "points": 3,
+      "tags": ["ρυθμιστικό", "pH", "Henderson-Hasselbalch", "υπολογισμός"],
+      "learning_objective": "Υπολογισμός pH ρυθμιστικού με τον τύπο Henderson-Hasselbalch",
+      "question": "Ρυθμιστικό διάλυμα περιέχει $CH_3COOH$ $0{,}2$ M και $CH_3COONa$ $0{,}1$ M. $K_a = 10^{-5}$. Ποιο είναι το $pH$;",
+      "options": [
+        {"id": "A", "text": "$pH = 5$"},
+        {"id": "B", "text": "$pH \\approx 4{,}7$"},
+        {"id": "C", "text": "$pH = 3$"},
+        {"id": "D", "text": "$pH \\approx 5{,}3$"}
+      ],
+      "correct_answer": {"type": "option", "value": "B"},
+      "explanation": "$[H^+] = K_a \\times \\frac{[CH_3COOH]}{[CH_3COO^-]} = 10^{-5} \\times \\frac{0{,}2}{0{,}1} = 2 \\times 10^{-5}$ M. $pH = -\\log(2 \\times 10^{-5}) = 5 - \\log 2 \\approx 5 - 0{,}3 = 4{,}7$. Ή: $pH = pK_a + \\log\\frac{0{,}1}{0{,}2} = 5 + \\log(0{,}5) = 5 - 0{,}3 \\approx 4{,}7$.",
+      "common_mistake": "Επιλέγεται $pH=5$ — αγνοείται ο λόγος $C_{\\text{οξύ}}/C_{\\text{άλας}} = 2$ που μετατοπίζει το pH κάτω από το $pK_a$.",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5"
+    },
+    {
+      "id": "CH5_5_008",
+      "type": "single_choice",
+      "difficulty": "hard",
+      "points": 3,
+      "tags": ["ρυθμιστικό", "βασικό", "NH3", "NH4Cl", "pH"],
+      "learning_objective": "Υπολογισμός pH βασικού ρυθμιστικού NH3/NH4+",
+      "question": "Ρυθμιστικό διάλυμα περιέχει $NH_3$ $0{,}1$ M και $NH_4Cl$ $0{,}1$ M. $K_b(NH_3) = 10^{-5}$. Ποιο είναι το $pH$;",
+      "options": [
+        {"id": "A", "text": "$pH = 5$"},
+        {"id": "B", "text": "$pH = 7$"},
+        {"id": "C", "text": "$pH = 9$"},
+        {"id": "D", "text": "$pH = 11$"}
+      ],
+      "correct_answer": {"type": "option", "value": "C"},
+      "explanation": "$[OH^-] = K_b \\times \\frac{[NH_3]}{[NH_4^+]} = 10^{-5} \\times \\frac{0{,}1}{0{,}1} = 10^{-5}$ M. $pOH = 5$. $pH = 14 - 5 = 9$.",
+      "common_mistake": "Επιλέγεται $pH=5$ — υπολογίζεται $pOH$ χωρίς αφαίρεση από 14.",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5 — Θέμα Γ1 6ου διαγωνίσματος"
+    },
+    {
+      "id": "CH5_5_009",
+      "type": "true_false",
+      "difficulty": "medium",
+      "points": 2,
+      "tags": ["ρυθμιστικό", "pH-μετά-προσθήκη", "μικρή-μεταβολή"],
+      "learning_objective": "Κατανόηση ότι το pH ρυθμιστικού μεταβάλλεται ελαφρά (όχι μηδέν) κατά προσθήκη οξέος/βάσης",
+      "question": "Η προσθήκη μικρής ποσότητας ισχυρού οξέος σε ρυθμιστικό διάλυμα μεταβάλλει ελαφρά το $pH$ του, αλλά δεν το διατηρεί απολύτως σταθερό.",
+      "correct_answer": {"type": "boolean", "value": true},
+      "explanation": "Το ρυθμιστικό διάλυμα ΔΕΝ κρατά το $pH$ απολύτως σταθερό — το αλλάζει ελάχιστα. Αυτό που κάνει είναι να αντιστέκεται σε ΜΕΓΑΛΕΣ μεταβολές. Η ρυθμιστική ικανότητα είναι πεπερασμένη.",
+      "common_mistake": "Θεωρείται ότι το ρυθμιστικό κρατά το pH απολύτως αναλλοίωτο — αυτό δεν ισχύει.",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5"
+    },
+    {
+      "id": "CH5_5_010",
+      "type": "single_choice",
+      "difficulty": "medium",
+      "points": 2,
+      "tags": ["ρυθμιστική-ικανότητα", "συγκέντρωση", "εξάρτηση"],
+      "learning_objective": "Κατανόηση από τι εξαρτάται η ρυθμιστική ικανότητα",
+      "question": "Η ρυθμιστική ικανότητα ενός ρυθμιστικού διαλύματος εξαρτάται κυρίως από:",
+      "options": [
+        {"id": "A", "text": "Μόνο από την τιμή $K_a$ του ασθενούς οξέος"},
+        {"id": "B", "text": "Μόνο από τη θερμοκρασία"},
+        {"id": "C", "text": "Τις συγκεντρώσεις των συστατικών (οξέος και άλατος)"},
+        {"id": "D", "text": "Μόνο από το $pH$ του διαλύματος"}
+      ],
+      "correct_answer": {"type": "option", "value": "C"},
+      "explanation": "Η ρυθμιστική ικανότητα εξαρτάται από τις ποσότητες (mol) των συστατικών: όσο περισσότερο ασθενές οξύ και συζυγής βάση, τόσο μεγαλύτερη ποσότητα ισχυρού οξέος/βάσης μπορεί να απορροφηθεί. Η $K_a$ καθορίζει το $pH$ αλλά ΌΧΙ την ικανότητα.",
+      "common_mistake": "Θεωρείται ότι η ρυθμιστική ικανότητα εξαρτάται μόνο από $K_a$ ή $pH$.",
+      "image_url": null,
+      "source": "Σχολικό βιβλίο, §5.5"
+    }
+  ]
+}
